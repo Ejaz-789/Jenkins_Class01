@@ -13,7 +13,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                // Run unit tests (if using Mavens, this would be part of the build)
+                // Run unit tests (if using Mavens, this would be part of the builds)
                 script {
                     bat 'java helloworld'  // Run the compiled HelloWorld class
                 }
